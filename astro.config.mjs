@@ -14,7 +14,6 @@ export default defineConfig({
     build: {
         format: "directory",
     },
-    trailingSlash: "never",
     devToolbar: {
         enabled: false,
     },
