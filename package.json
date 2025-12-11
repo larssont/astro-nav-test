@@ -1,0 +1,19 @@
+{
+  "name": "astro-mwe",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev --host",
+    "start": "node ./dist/server/entry.mjs",
+    "preview": "astro preview",
+    "build": "astro build",
+    "render": "pnpm run build && pnpm run start",
+    "astro": "astro",
+    "format": "eslint . --fix && prettier -w \"**/*\" --ignore-unknown --cache",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@astrojs/node": "^9.5.1",
+    "astro": "^5.1.6"
+  }
+}
