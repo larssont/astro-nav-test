@@ -9,6 +9,7 @@ body {
 }
 
 nav {
+  view-transition-name: nav;
   position: sticky;
   top: 0;
   background: #333;
