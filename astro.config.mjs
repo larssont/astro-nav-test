@@ -3,7 +3,7 @@ import node from "@astrojs/node";
 
 export default defineConfig({
     output: "static",
-    site: 'https://astronaut.github.io',
+    site: 'https://larssont.github.io',
     base: "/astro-nav-test",
     adapter: node({
         mode: "standalone",
