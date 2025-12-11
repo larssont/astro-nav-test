@@ -5,15 +5,15 @@ export default defineConfig({
     output: "static",
     site: 'https://larssont.github.io',
     base: "/astro-nav-test",
-    adapter: node({
-        mode: "standalone",
-    }),
+    // adapter: node({
+    //     mode: "standalone",
+    // }),
     server: {
         host: "0.0.0.0",
     },
-    build: {
-        format: "directory",
-    },
+    // build: {
+    //     format: "directory",
+    // },
     devToolbar: {
         enabled: false,
     },
